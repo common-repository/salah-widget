@@ -1,0 +1,138 @@
+.classicTable {
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.classicTable tbody td, .classicTable thead th {
+    vertical-align: middle;
+    padding:1%;
+    border: 1px solid #7D7D7D;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    color: #7D7D7D;
+    text-align: center;
+}
+
+.blueTable {
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.blueTable td:nth-child(even) {
+    background: #E1EEf4;
+    color: #00557F;
+}
+
+.blueTable thead th {
+    vertical-align: middle;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F));
+    background: -moz-linear-gradient(center top, #006699 5%, #00557F 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    font: bold 12px/150% Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #00557F;
+
+}
+
+.blueTable tbody td {
+    vertical-align: middle;
+    padding:1%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    color: #00557F;
+    text-align: center;
+    border: 1px solid #00557F;
+}
+
+.greenTable {
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.greenTable td:nth-child(even) {
+    background: #DFFFDE;
+    color: #275420;
+}
+
+.greenTable thead th {
+    vertical-align: middle;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420));
+    background: -moz-linear-gradient(center top, #36752D 5%, #275420 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
+    font: bold 12px/150% Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #547f24;
+}
+
+.greenTable tbody td {
+    vertical-align: middle;
+    padding:1%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    color: #275420;
+    text-align: center;
+    border: 1px solid #547f24;
+}
+
+.redTable {
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.redTable td:nth-child(even) {
+    background: #F7CDCD;
+    color: #80141C;
+}
+
+.redTable thead th {
+    vertical-align: middle;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C));
+    background: -moz-linear-gradient(center top, #991821 5%, #80141C 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+    font: bold 12px/150% Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #80141C;
+}
+
+.redTable tbody td {
+    vertical-align: middle;
+    padding:1%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    color: #80141C;
+    text-align: center;
+    border: 1px solid #80141C;
+}
+
+.greyTable {
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.greyTable td:nth-child(even) {
+    background: #EBEBEB;
+    color: #7D7D7D;
+}
+
+.greyTable thead th {
+    vertical-align: middle;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #7D7D7D));
+    background: -moz-linear-gradient(center top, #8C8C8C 5%, #7D7D7D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='#7D7D7D');
+    font: bold 12px/150% Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #7D7D7D;
+}
+
+.greyTable tbody td {
+    vertical-align: middle;
+    padding:1%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    color: #7D7D7D;
+    text-align: center;
+    border: 1px solid #7D7D7D;
+}
+
+
+
+ 
